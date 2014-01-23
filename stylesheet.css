@@ -1,0 +1,17 @@
+.button {
+  margin: .4em;
+  padding: 1em;
+  cursor: pointer;
+  background: #525252;
+  text-decoration: underline;
+  color: #FFFFFF;
+  /* Prevent highlight colour when element is tapped */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-border-radius: 12px; /* FF1+ */
+  -webkit-border-radius: 12px; /* Saf3-4, iOS 1+, Android 1.5+ */
+  border-radius: 12px; /* Opera 10.5, IE9, Saf5, Chrome, FF4 */  
+}
+.button.big-btn {
+  width: 90px;
+  height: 60px;
+}
